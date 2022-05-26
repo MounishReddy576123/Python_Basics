@@ -1,0 +1,20 @@
+from numpy import *
+arr=array([
+            [1,3,4],
+            [5,6,7],
+            [8,9,2]
+])
+arr1=arr.copy()
+'''print(arr.ndim)
+print(arr.shape)
+print(arr.size)
+arr1=arr.reshape(-1)
+arr2=arr.flatten()
+arr1=arr2.reshape((2,3))
+print(arr2)
+print(arr1)
+np.dot(arr,arr1)'''
+m=matrix(arr)
+m1=matrix(arr1)
+m3=m*m1
+print(m3)
